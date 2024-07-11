@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(17, 18, 18);
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.titulo{
+    font-size: 45px;
+    font-family: "Sedan SC", serif;
+    margin-top: 40px;
+    color: antiquewhite;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    background-color: rgba(78, 73, 73, 0.818);
+    padding: 20px;
+    border-radius: 20px;
+}
+.formulario_divisoria{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulario label{
+    font-size: 24px;
+    color: #fff;
+}
+
+.formulario input{
+    font-size: 18px;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: black;
+    outline: none;
+}
+
+.formulario button{
+    font-size: 24px;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: black;
+    outline: none;
+    cursor: pointer;
+    color: rgb(206, 186, 186);
+    font-family: "Roboto Mono", monospace;
+    transition: 0.5s ease-in-out;
+}
+
+.formulario button:hover{
+    background-color: rgb(124, 116, 116);
+    transform: scale(1.02);
+}
+
+.div_botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.contatos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgba(70, 57, 57, 0.321);
+    border-radius: 20px;
+    color: rgb(210, 201, 201);
+    padding: 20px;
+}
+
+.icon{
+    max-width: 40px;
+    cursor: pointer;
+    background-color:  rgb(170, 168, 168);
+    padding: 3px;
+    border-radius: 5px;
+    
+}
